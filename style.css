@@ -11,6 +11,8 @@ h3{
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
 }
 p{
     color: rgb(13, 19, 33);
@@ -18,7 +20,13 @@ p{
     font-size: 16px;
     font-weight: 400;
 }
-
+ .current-target a , .next-target a{
+     color: rgb(13, 19, 33);
+     font-family: Azeret Mono;
+     font-size: 16px;
+     font-weight: 700;
+     text-decoration-line: underline;
+ }
 /* top section start */
 .name-resume{
     max-width: 1100px;
@@ -216,7 +224,6 @@ p{
   height: 614px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 260px;
 
 }
 .iframe-border{
@@ -235,6 +242,7 @@ iframe{
     max-width: 1140px;
     height: 460px;
     margin: 0 auto;
+   margin-top: 240px;
   }
  
 .items-container{
@@ -277,3 +285,35 @@ iframe{
 }
 
 /* <!-- my current target end  --> */
+/* my next target start */
+   .next-target{
+       width: 1140px;
+       height: 866px;
+       margin: 0 auto;
+       margin-top: 50px;
+   }
+
+   .reactJs,.NodeJS,.MongoDB{
+    max-width: 1140px;
+    height: 219px;
+    margin: 0 auto;
+
+   }
+   .reactJs-content,.NodeJS-content,.MongoDB-content{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+   }
+   
+   .next-target h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+   }
+/* my next target end */
