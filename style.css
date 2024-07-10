@@ -229,4 +229,51 @@ iframe{
 }
  
 
-/* <!-- my inspiration sectionend  --> */
+/* <!-- my inspiration section end  --> */
+/* <!-- my current target start  --> */
+  .current-target{
+    max-width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+  }
+ 
+.items-container{
+    display:flex;
+    gap: 24px;
+
+}
+ .item-container{
+    max-width: 364px;
+    height: 299px;
+ }
+ .html-content{
+    padding:40px ;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);   
+    
+ }
+ .css-content{
+    padding:40px ;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);  
+    
+ }
+ .js-content{
+    padding:40px ;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05); 
+    
+ }
+.item-container h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 9px;
+}
+.item-container p{
+    margin-bottom: 24px;
+}
+
+/* <!-- my current target end  --> */
