@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* common shared style  */
-*{
+*{  
+    font-family: Azeret Mono;
     margin: 0;
     padding: 0;
 }
 h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
@@ -16,13 +16,11 @@ h3{
 }
 p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
 }
  .current-target a , .next-target a{
      color: rgb(13, 19, 33);
-     font-family: Azeret Mono;
      font-size: 16px;
      font-weight: 700;
      text-decoration-line: underline;
@@ -39,13 +37,11 @@ p{
 }
 .name-resume h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
 }
 .name-resume button{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     padding: 17px 24px 17px 24px;
@@ -77,14 +73,12 @@ p{
 }
 .banner-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
 
 }
 .banner-description{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     margin-top: 36px;
@@ -93,7 +87,6 @@ p{
 }
 .banner-btn{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     padding: 21px 24px 21px 24px;   
@@ -189,7 +182,6 @@ p{
 
 .why-web-text>h4{
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
     text-align: left;   
@@ -200,7 +192,6 @@ p{
 }
 .why-web-dev button{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     box-sizing: border-box;
@@ -274,7 +265,6 @@ iframe{
  }
 .item-container h2{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     margin-top: 24px;
@@ -312,8 +302,68 @@ iframe{
    
    .next-target h4{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
    }
 /* my next target end */
+
+/* footer section */
+footer{
+    max-width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("./assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    text-align: center;
+
+}
+.footer-content{
+  padding : 64px
+}
+footer h4{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+footer p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.formm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 50px;
+}
+footer input[type="text"]{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.4);
+    width: 548px;
+    height: 57px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius:8px ;
+    border: none;
+}
+footer input[type ="submit"]{
+    width: 120px;
+    height: 57px;
+    border-radius:8px ;
+    border: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: none
+    ;
+
+}
