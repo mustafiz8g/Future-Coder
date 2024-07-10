@@ -308,7 +308,7 @@ iframe{
 /* my next target end */
 
 /* footer section */
-footer{
+.support{
     max-width: 1140px;
     height: 313px;
     margin: 0 auto;
@@ -322,16 +322,16 @@ footer{
     text-align: center;
 
 }
-.footer-content{
+.support-content{
   padding : 64px
 }
-footer h4{
+.support h4{
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-footer p{
+.support p{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
@@ -345,7 +345,7 @@ footer p{
     gap: 16px;
     margin-top: 50px;
 }
-footer input[type="text"]{
+.support input[type="text"]{
     font-size: 16px;
     color: rgba(13, 19, 33, 0.4);
     width: 548px;
@@ -355,7 +355,7 @@ footer input[type="text"]{
     border-radius:8px ;
     border: none;
 }
-footer input[type ="submit"]{
+.support input[type ="submit"]{
     width: 120px;
     height: 57px;
     border-radius:8px ;
@@ -366,4 +366,29 @@ footer input[type ="submit"]{
     background-color: none
     ;
 
+}
+footer{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h3{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+}
+.link-account{
+    margin-right:150px ;
+    gap: 30px;
+}
+.link-account img{
+    width: 36.86px;
+    height: 35.95px;
 }
